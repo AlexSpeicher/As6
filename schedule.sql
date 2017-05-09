@@ -2,14 +2,14 @@
 # mysql -u root -p < menu.sql
 # enter pwd: goodyear123!@#
 
-DROP DATABASE IF EXISTS menu_db;
-CREATE DATABASE menu_db;
-USE menu_db;
+DROP DATABASE IF EXISTS schedule_db;
+CREATE DATABASE schedule_db;
+USE schedule_db;
 CREATE TABLE objects(
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(255),
 	val TEXT
 );
-INSERT INTO objects (name, val) VALUES ("menu", "INVALIDVAL");
+INSERT INTO objects (name, val) VALUES ("schedule", "INVALIDVAL");
 
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package datasel;
+package As6;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -87,7 +87,7 @@ public class Utils {
         HttpURLConnection con = (HttpURLConnection) urlObj.openConnection();
         con.setRequestMethod("POST");
         con.setRequestProperty("Content-length", String.valueOf(datastr.length()));
-        con.setRequestProperty("Content-Type", "application/x-www- form-urlencoded");
+        con.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
         con.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 5.0;Windows98;DigExt)");
         con.setDoOutput(true);
         con.setDoInput(true);
